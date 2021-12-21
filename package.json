@@ -1,19 +1,21 @@
 {
-    "name": "mini-rollup",
-    "version": "1.0.0",
-    "main": "debugger.js",
-    "scripts": {
-        "dev:mini-rollup": "nodemon debugger.js",
-        "test:mini-rollup": "node dist/bundle.js"
-    },
-    "nodemonConfig": {
-        "ignore": ["dist/*"]
-    },
-    "repository": "git@github.com:OUDUIDUI/mini.git",
-    "author": "oushihao <oushihao97@163.com>",
-    "license": "MIT",
-    "dependencies": {
-        "acorn": "^8.4.1",
-        "magic-string": "^0.25.7"
-    }
+	"name": "mini-rollup",
+	"version": "1.0.0",
+	"main": "debugger.js",
+	"scripts": {
+		"dev:mini-rollup": "nodemon debugger.js",
+		"test:mini-rollup": "node dist/bundle.js"
+	},
+	"nodemonConfig": {
+		"ignore": [
+			"dist/*"
+		]
+	},
+	"repository": "git@github.com:OUDUIDUI/mini.git",
+	"author": "oushihao <oushihao97@163.com>",
+	"license": "MIT",
+	"dependencies": {
+		"acorn": "^8.4.1",
+		"magic-string": "^0.25.7"
+	}
 }
