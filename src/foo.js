@@ -1,7 +1,7 @@
 import { bar } from './bar';
 
 export function foo() {
-	bar();
+  bar();
 }
 
 export const title = 'Hello World!';

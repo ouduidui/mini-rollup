@@ -3,7 +3,7 @@ import { foo, title } from './foo';
 foo();
 
 function saySomething() {
-	console.log(title);
+  console.log(title);
 }
 
 saySomething();
