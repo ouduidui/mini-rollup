@@ -1,9 +1,12 @@
-import { foo, title } from './foo';
+const Bundle = require('./Bundle');
 
-foo();
-
-function saySomething() {
-  console.log(title);
+/**
+ * rollup函数
+ * @param {string} entry
+ * @param {string} outputFileName
+ */
+function rollup(entry, outputFileName) {
+  new Bundle(entry).build(outputFileName);
 }
 
-saySomething();
+module.exports = rollup;

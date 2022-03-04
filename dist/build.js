@@ -1,12 +1,12 @@
 function bar() {
-    console.log('bar');
+  console.log('bar');
 }
 function foo() {
-    bar();
+  bar();
 }
 foo();
 const title = 'Hello World!';
 function saySomething() {
-    console.log(title)
+  console.log(title);
 }
 saySomething();

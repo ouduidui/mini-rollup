@@ -1,4 +1,4 @@
-import { bar } from './bar';
+import { bar } from './utils/bar';
 
 export function foo() {
   bar();
